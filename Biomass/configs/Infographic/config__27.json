@@ -1,0 +1,224 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 30.22084544818889,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7717153447959921-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7717153447959921-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 44.53242526673374,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7717153447959921-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7717153447959921-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 25.246729285077397,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "7717153447959921-4"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "7717153447959921-4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "7717153447959921-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#2e8b57",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 21,
+          "textColor": "#ffffff"
+        },
+        "text": "PROVEEDORES BIOMASA"
+      }
+    },
+    {
+      "id": "7717153447959921-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "7717153447959921-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [
+          {
+            "value": [
+              0
+            ],
+            "operator": "equal",
+            "iconInfo": {
+              "color": "#ff0000",
+              "icon": "icon-stop",
+              "placement": "replace"
+            },
+            "uniqueID": "8083916088443635"
+          },
+          {
+            "value": [
+              0
+            ],
+            "operator": "greater",
+            "iconInfo": {
+              "color": "#7fff00",
+              "icon": "icon-up",
+              "placement": "left"
+            },
+            "uniqueID": "21480651742302004"
+          }
+        ],
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 53,
+          "textColor": "#000001"
+        },
+        "dataFormat": {
+          "unit": "none",
+          "decimalPlaces": "0",
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "count"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "7717153447959921-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Proveedores de biomasa en la ciudad de Valladolid"
+      }
+    }
+  ],
+  "name": "number",
+  "wid": "7717153447959921",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "ProovedoresBiomasaValladolid_Distrito",
+    "layerId": "eb514034af0d47dba78bfeed929a680c",
+    "useSelection": true,
+    "filterByExtent": false
+  }
+}

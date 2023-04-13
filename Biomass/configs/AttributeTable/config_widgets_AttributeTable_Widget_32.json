@@ -1,0 +1,544 @@
+{
+  "layerInfos": [
+    {
+      "name": "ProovedoresBiomasaValladolid_Distrito",
+      "id": "eb514034af0d47dba78bfeed929a680c",
+      "layer": {
+        "url": "https://services8.arcgis.com/BtkRLT3YBKaVGV3g/arcgis/rest/services/ProovedoresBiomasaValladolid/FeatureServer/3",
+        "fields": [
+          {
+            "show": false,
+            "name": "ASTILLAS",
+            "alias": "ASTILLAS"
+          },
+          {
+            "show": false,
+            "name": "BRIQUETAS",
+            "alias": "BRIQUETAS"
+          },
+          {
+            "show": false,
+            "name": "C_P_",
+            "alias": "C.P."
+          },
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "EMPRESA",
+            "alias": "EMPRESA"
+          },
+          {
+            "show": true,
+            "name": "CALIDAD_PELLETS",
+            "alias": "CALIDAD PELLETS"
+          },
+          {
+            "show": true,
+            "name": "Cod_Distrito",
+            "alias": "Cod_Distrito"
+          },
+          {
+            "show": true,
+            "name": "DIRECCIÓN",
+            "alias": "DIRECCIÓN"
+          },
+          {
+            "show": true,
+            "name": "TELÉFONO",
+            "alias": "TELÉFONO"
+          },
+          {
+            "show": true,
+            "name": "DISTRIBUCIÓN",
+            "alias": "DISTRIBUCIÓN"
+          },
+          {
+            "show": true,
+            "name": "FORMATO_DE_PRODUCTO",
+            "alias": "FORMATO DE PRODUCTO"
+          },
+          {
+            "show": false,
+            "name": "HUESO_ACEITUNA",
+            "alias": "HUESO ACEITUNA"
+          },
+          {
+            "show": false,
+            "name": "LEÑA",
+            "alias": "LEÑA"
+          },
+          {
+            "show": true,
+            "name": "MARCAS_BIOMASA",
+            "alias": "MARCAS BIOMASA"
+          },
+          {
+            "show": false,
+            "name": "MUNICIPIO",
+            "alias": "MUNICIPIO"
+          },
+          {
+            "show": false,
+            "name": "PELLETS",
+            "alias": "PELETS"
+          },
+          {
+            "show": true,
+            "name": "PRODUCTOS_QUE_COMERCIALIZA",
+            "alias": "PRODUCTOS QUE COMERCIALIZA"
+          },
+          {
+            "show": true,
+            "name": "PUNTOS_DE_VENTA",
+            "alias": "PUNTOS DE VENTA"
+          },
+          {
+            "show": false,
+            "name": "X",
+            "alias": "X"
+          },
+          {
+            "show": false,
+            "name": "Y",
+            "alias": "Y"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Salud_Distritos",
+      "id": "86318dcacfef404ba20f566e4172567e",
+      "layer": {
+        "url": "https://services8.arcgis.com/BtkRLT3YBKaVGV3g/arcgis/rest/services/Salud_Distritos/FeatureServer/44",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "cod__Municipio",
+            "alias": "cod- Municipio",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Municipio_de_Valladolid",
+            "alias": "Municipio de Valladolid",
+            "show": true
+          },
+          {
+            "name": "Cod_Distrito",
+            "alias": "Cod_Distrito",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_0_a_4_años",
+            "alias": "Población hombres de 0 a 4 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_5_a_9_años",
+            "alias": "Población hombres de 5 a 9 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_10_a_14_añ",
+            "alias": "Población hombres de 10 a 14 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_15_a_19_añ",
+            "alias": "Población hombres de 15 a 19 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_20_a_24_añ",
+            "alias": "Población hombres de 20 a 24 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_25_a_29_añ",
+            "alias": "Población hombres de 25 a 29 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_30_a_34_añ",
+            "alias": "Población hombres de 30 a 34 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_35_a_39_añ",
+            "alias": "Población hombres de 35 a 39 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_40_a_44_añ",
+            "alias": "Población hombres de 40 a 44 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_45_a_49_añ",
+            "alias": "Población hombres de 45 a 49 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_50_a_54_añ",
+            "alias": "Población hombres de 50 a 54 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_55_a_59_añ",
+            "alias": "Población hombres de 55 a 59 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_65_a_69_añ",
+            "alias": "Población hombres de 65 a 69 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_70_a_74_añ",
+            "alias": "Población hombres de 70 a 74 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_80_a_84_añ",
+            "alias": "Población hombres de 80 a 84 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_hombres_de_85_o_más_2",
+            "alias": "Población hombres de 85 o más 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Población_mujeres_de_60_a_64_añ",
+            "alias": "Población mujeres de 60 a 64 años 2022",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Embarazos_2022",
+            "alias": "Embarazos_2022",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "EPOC_HOMBRE",
+            "alias": "EPOC_HOMBRE",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "EPOC_MUJER",
+            "alias": "EPOC_MUJER",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "EPOC_hospilizados_Hombre",
+            "alias": "EPOC hospilizados Hombre",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "EPOC_hospitalizados_Mujer",
+            "alias": "EPOC hospitalizados Mujer",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Neumonía_HOMBRE",
+            "alias": "Neumonía HOMBRE",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Neumonía_MUJER",
+            "alias": "Neumonía MUJER",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Neumonia_Hospitalizados_HOMBRE",
+            "alias": "Neumonia Hospitalizados HOMBRE",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Neumonia_Hospitalizados_MUJER",
+            "alias": "Neumonia Hospitalizados MUJER",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_HOMBRE_SEMANA1",
+            "alias": "Gripe_HOMBRE_SEMANA1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_MUJER_SEMANA1",
+            "alias": "Gripe_MUJER_SEMANA1",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_HOMBRE_SEMANA2",
+            "alias": "Gripe_HOMBRE_SEMANA2",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_MUJER_SEMANA2",
+            "alias": "Gripe_MUJER_SEMANA2",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_HOMBRE_SEMANA3",
+            "alias": "Gripe_HOMBRE_SEMANA3",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_MUJER_SEMANA3",
+            "alias": "Gripe_MUJER_SEMANA3",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Gripe_HOMBRE_SEMANA4",
+            "alias": "Gripe_HOMBRE_SEMANA4",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "GripeMUJER_SEMANA4",
+            "alias": "GripeMUJER_SEMANA4",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Habitos_consumotabaco_hombres",
+            "alias": "Habitos_consumotabaco_hombres",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Habitos_consumotabaco_Mujeres",
+            "alias": "Habitos_consumotabaco_Mujeres",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Empleo_SectorConstruccion",
+            "alias": "Empleo_SectorConstruccion",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Empleo_Sector_Agriculturaypesca",
+            "alias": "Empleo_Sector Agriculturaypesca",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Empleo_SectorTurismo",
+            "alias": "Empleo_SectorTurismo",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
