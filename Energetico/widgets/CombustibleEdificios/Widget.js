@@ -68,11 +68,6 @@ define([
         var tipoCentro = this.selectTipo.value;
         console.log(tipoCentro)
 
-        // Switch activados
-        var a = dom.byId("inp-a").checked;
-        var b = dom.byId("inp-b").checked;
-        var c = dom.byId("inp-c").checked;
-
         if(tipoCentro=="0"){
           tExpression = tExpression + ensenanza;
         }else if(tipoCentro=="1"){
@@ -98,6 +93,11 @@ define([
         }else if(tipoCentro=="11"){
           tExpression = ``;
         }
+
+        // Switch activados
+        var a = dom.byId("inp-a").checked;
+        var b = dom.byId("inp-b").checked;
+        var c = dom.byId("inp-c").checked;
 
         if (distrito== 0){
           if(a == true){
