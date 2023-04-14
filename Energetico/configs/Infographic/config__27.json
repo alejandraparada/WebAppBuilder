@@ -1,0 +1,174 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 27.97150164413592,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "19715146149343066-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "19715146149343066-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 72.0284983558641,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "19715146149343066-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "19715146149343066-2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "19715146149343066-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#2e8b57",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#ffffff"
+        },
+        "text": "ENERGÍA UTILIZADA PARA CALEFACCION"
+      }
+    },
+    {
+      "id": "19715146149343066-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "data": {
+          "mode": "count",
+          "type": "pie",
+          "clusterField": "ENERGIA_UTILIZADA_CALEFACCION",
+          "sortOrder": {
+            "isAsc": false,
+            "isLabelAxis": false
+          },
+          "maxLabels": 100
+        },
+        "display": {
+          "backgroundColor": "#ffffff",
+          "seriesStyle": {
+            "type": "series",
+            "styles": [
+              {
+                "style": {
+                  "color": [
+                    "#eb7b3a",
+                    "#febf29",
+                    "#72ad4c",
+                    "#9c4618",
+                    "#987214",
+                    "44682e"
+                  ]
+                },
+                "name": "pie~not-field",
+                "label": "pie~not-field"
+              }
+            ]
+          },
+          "legend": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 10
+            },
+            "show": true
+          },
+          "dataLabel": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 9
+            },
+            "show": true
+          },
+          "innerRadius": 0
+        }
+      }
+    },
+    {
+      "id": "19715146149343066-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Descripción: información adicional sobre esta infografía."
+      }
+    }
+  ],
+  "name": "pie",
+  "wid": "19715146149343066",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "EDIFICIOS_ENERGIA",
+    "layerId": "eddecaaf6bd947d0bd672a7547943f64",
+    "useSelection": true,
+    "filterByExtent": false
+  }
+}

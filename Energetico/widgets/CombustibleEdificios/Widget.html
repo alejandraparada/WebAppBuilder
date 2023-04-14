@@ -1,0 +1,69 @@
+<div>
+    <h2>Edificios Públicos</h2>
+    <div>
+        <label for="">Selecciona distrito: </label><br><br>
+        <select 
+            name="" 
+            data-dojo-attach-point="selectDistrito"
+            style="display:block; width: 200px;">
+            <option value="0" text="Todos">Todos los distritos</option>
+            <option value="1" text="1">1</option>
+            <option value="2" text="2">2</option>
+            <option value="3" text="3">3</option>
+            <option value="4" text="4">4</option>
+            <option value="5" text="5">5</option>
+            <option value="6" text="6">6</option>
+            <option value="7" text="7">7</option>
+            <option value="8" text="8">8</option>
+            <option value="9" text="9">9</option>
+            <option value="10" text="10">10</option>
+            <option value="11" text="11">11</option>
+            <option value="12" text="12">12</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="">Tipo de Centro: </label><br><br>
+        <select 
+            name="" 
+            data-dojo-attach-point="selectTipo"
+            style="display:block; width: 200px;">
+            <option value="11" text="TODOS LOS CENTROS">TODOS LOS CENTROS</option>
+            <option value="0" text="CENTRO DE ENSEÑANZA">CENTRO DE ENSEÑANZA</option>
+            <option value="1" text="CENTRO DEPORTIVO">CENTRO DEPORTIVO</option>
+            <option value="2" text="CENTRO SANITARIO">CENTRO SANITARIO</option>
+            <option value="3" text="BIBLIOTECA">BIBLIOTECA</option>
+            <option value="4" text="EDIFICIO ADMINISTRATIVO">EDIFICIO ADMINISTRATIVO</option>
+            <option value="5" text="ESTACION AUTOBUSES">ESTACION AUTOBUSES</option>
+            <option value="6" text="ESTACION FERROCARRIL">ESTACION FERROCARRIL</option>
+            <option value="7" text="MERCADO">MERCADO</option>
+            <option value="8" text="MUSEO">MUSEO</option>
+            <option value="9" text="POLICIA MUNICIPAL">POLICIA MUNICIPAL</option>
+            <option value="10" text="RESIDENCIA DE MAYORES">RESIDENCIA DE MAYORES</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="">Tipo de Combustible: </label>
+    </div><br>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-a" checked>
+        <label class="form-check-label" for="inp-a">GASÓLEO/FUEL</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-b" checked>
+        <label class="form-check-label" for="inp-b">GAS NATURAL</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-c" checked>
+        <label class="form-check-label" for="inp-c">BIOMASA</label>
+    </div>
+    
+    <div style="display: flex; gap: 20px;">
+        <div>
+            <button id="btn-caldera-pellets btn" type="button" class="btn btn-secondary btn-sm" data-dojo-attach-event="onclick:filtrarInstaladores">Buscar</button>
+        </div>
+        <div class="section-three">
+            <button id="btn-restaurar" type="button" class="btn btn-secondary btn-sm" data-dojo-attach-event="onclick:refresh">Restaurar Filtros</button>
+        </div>
+    </div>
+    
+</div>
