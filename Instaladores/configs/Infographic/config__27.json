@@ -1,0 +1,224 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 31.89418019714572,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47045068619669617-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "47045068619669617-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 43.18049399871689,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47045068619669617-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "47045068619669617-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 24.925325804137394,
+            "content": [
+              {
+                "id": "47045068619669617-4",
+                "type": "component",
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "47045068619669617-4"
+                },
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "jimu grid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "47045068619669617-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#8fbc8f",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 18,
+          "textColor": "#ffffff"
+        },
+        "text": "EMPRESAS DE INSTALACIÓN"
+      }
+    },
+    {
+      "id": "47045068619669617-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "47045068619669617-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [
+          {
+            "value": [
+              0
+            ],
+            "operator": "equal",
+            "iconInfo": {
+              "color": "#ff0000",
+              "icon": "icon-stop",
+              "placement": "left"
+            },
+            "uniqueID": "75968316026732"
+          },
+          {
+            "value": [
+              0
+            ],
+            "operator": "greater",
+            "valueColor": "#000001",
+            "iconInfo": {
+              "color": "#7fff00",
+              "icon": "icon-up",
+              "placement": "left"
+            },
+            "uniqueID": "6249424861928996"
+          }
+        ],
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Verdana",
+            "bold": true,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 45,
+          "textColor": "#59bad8"
+        },
+        "dataFormat": {
+          "unit": "none",
+          "decimalPlaces": "0",
+          "digitSeparator": true,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistics": [
+          {
+            "type": "value",
+            "config": {
+              "type": "stat",
+              "value": {
+                "type": "count"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "47045068619669617-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#282828"
+        },
+        "text": "Empresas de servicio de instalación y mantenimiento de calderas de biomasa."
+      }
+    }
+  ],
+  "name": "number",
+  "wid": "47045068619669617",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "EmpresasCalderasBiomasa",
+    "layerId": "e544aff281124938a895a305b61c28e0",
+    "useSelection": true,
+    "filterByExtent": false
+  }
+}

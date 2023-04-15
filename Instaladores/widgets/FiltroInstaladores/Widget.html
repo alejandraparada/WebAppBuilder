@@ -1,0 +1,47 @@
+<div class="container">
+    <h2>Instalacion y Mantenimiento de Calderas</h2>
+    <div>
+        <label for="">Selecciona distrito: </label><br><br>
+        <select 
+            name="" 
+            data-dojo-attach-point="selectDistrito"
+            style="display:block; width: 200px;">
+            <option value="0" text="Todos">Todos los distritos</option>
+            <option value="1" text="1">1</option>
+            <option value="2" text="2">2</option>
+            <option value="3" text="3">3</option>
+            <option value="4" text="4">4</option>
+            <option value="5" text="5">5</option>
+            <option value="6" text="6">6</option>
+            <option value="7" text="7">7</option>
+            <option value="8" text="8">8</option>
+            <option value="9" text="9">9</option>
+            <option value="10" text="10">10</option>
+            <option value="11" text="11">11</option>
+            <option value="12" text="12">12</option>
+        </select>
+    </div>
+    <h3>PRODUCTO</h3><br>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-pellets" checked>
+        <label class="form-check-label" for="inp-pellets">Caldera Pellets</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-astillas" checked>
+        <label class="form-check-label" for="inp-astillas">Caldera Astillas</label>
+    </div>
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="inp-estufa" checked>
+        <label class="form-check-label" for="inp-estufa">Estufa Pellets</label>
+    </div>
+   
+    <div style="display: flex; gap: 20px;">
+        <div>
+            <button id="btn-caldera-pellets btn" type="button" class="btn btn-secondary btn-sm" data-dojo-attach-event="onclick:filtrarInstaladores">Buscar</button>
+        </div>
+        <div class="section-three">
+            <button id="btn-restaurar" type="button" class="btn btn-secondary btn-sm" data-dojo-attach-event="onclick:refresh">Restaurar Filtros</button>
+        </div>
+    </div>
+    
+</div>
