@@ -100,6 +100,27 @@ define([
         var c = dom.byId("inp-c").checked;
 
         if (distrito== 0){
+
+          var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+          console.log("dist", dist)
+          var queryTask =new QueryTask(dist.url);
+  
+          //Extent
+          var query = new Query();
+          query.where = "Cod_Distrito = '10'";
+          query.outSpatialReference = new SpatialReference(102100);
+          query.returnGeometry = true;
+  
+          queryTask.execute(query, lang.hitch(this, function(results){
+            console.log(results)
+  
+            if (results.features.length > 0){
+              var geometria = results.features[0].geometry
+              this.map.graphics.clear();
+              this.map.setExtent(geometria.getExtent(),true);
+            }
+          }));
+
           if(a == true){
             expression = expression + aC;
             console.log("a",expression);
@@ -150,6 +171,28 @@ define([
           console.log("fin",expression);
           this.currentLayer.setDefinitionExpression(expression);
           this.map.addLayer(this.currentLayer);
+
+          var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+          console.log("dist", dist)
+          var queryTask =new QueryTask(dist.url);
+  
+          //Extent
+          var query = new Query();
+          query.where = "Cod_Distrito = " + distrito;
+          query.outSpatialReference = new SpatialReference(102100);
+          query.returnGeometry = true;
+  
+          queryTask.execute(query, lang.hitch(this, function(results){
+            console.log(results)
+  
+            if (results.features.length > 0){
+              var geometria = results.features[0].geometry
+              this.map.graphics.clear();
+              this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+              this.map.setExtent(geometria.getExtent(),true);
+            }
+          }));
+
         }else if(b == true){
             expression = "("+ expression + bC + ")" + and + codDistrito + distrito; 
             if(c == true){
@@ -161,6 +204,28 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(c == true){
             expression = "("+ expression + cC + ")" + and + codDistrito + distrito; 
             if (tExpression !=``){
@@ -169,6 +234,27 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
           }
 
       },
