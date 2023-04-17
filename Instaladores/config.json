@@ -24,7 +24,7 @@
   "portalUrl": "https://esrimastergis.maps.arcgis.com",
   "appId": "",
   "authorizedCrossOriginDomains": [],
-  "title": "Instaladores Biomasa",
+  "title": "Instaladores",
   "subtitle": "with ArcGIS Web AppBuilder",
   "keepAppState": true,
   "logo": "images/app-logo.png",
@@ -116,27 +116,26 @@
       },
       {
         "position": {
-          "right": 10,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 1,
-        "id": "_27",
-        "name": "Infographic",
-        "version": "2.26",
-        "closeable": true,
-        "icon": "configs\\Infographic\\icon__27.png",
-        "uri": "widgets/Infographic/Widget",
-        "config": "configs/Infographic/config__27.json"
-      },
-      {
-        "position": {
           "right": 110,
           "top": 45,
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_28"
+        "id": "_27"
+      },
+      {
+        "position": {
+          "right": 10,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_28",
+        "name": "FiltroInstaladores",
+        "version": "2.26",
+        "closeable": true,
+        "IsController": false,
+        "uri": "widgets/FiltroInstaladores/Widget"
       },
       {
         "position": {
@@ -146,11 +145,12 @@
         },
         "placeholderIndex": 3,
         "id": "_29",
-        "name": "FiltroInstaladores",
+        "name": "Infographic",
         "version": "2.26",
         "closeable": true,
-        "IsController": false,
-        "uri": "widgets/FiltroInstaladores/Widget"
+        "icon": "configs\\Infographic\\icon__29.png",
+        "uri": "widgets/Infographic/Widget",
+        "config": "configs/Infographic/config__29.json"
       },
       {
         "uri": "widgets/OverviewMap/Widget",
@@ -177,13 +177,12 @@
       {
         "uri": "widgets/AttributeTable/Widget",
         "position": {
-          "bottom": 0,
-          "relativeTo": "map"
+          "bottom": 24,
+          "relativeTo": "browser"
         },
         "version": "2.26",
         "id": "widgets_AttributeTable_Widget_32",
-        "name": "AttributeTable",
-        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_32.json"
+        "name": "AttributeTable"
       },
       {
         "uri": "widgets/Splash/Widget",

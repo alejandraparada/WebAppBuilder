@@ -12,7 +12,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 31.89418019714572,
+            "height": 31.447444564986633,
             "activeItemIndex": 0,
             "content": [
               {
@@ -20,11 +20,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "47045068619669617-1"
+                  "id": "30368439891357824-1"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "47045068619669617-1"
+                "id": "30368439891357824-1"
               }
             ]
           },
@@ -33,39 +33,40 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 43.18049399871689,
+            "height": 42.32071024304397,
             "activeItemIndex": 0,
             "content": [
               {
-                "type": "component",
-                "isClosable": true,
-                "componentName": "jimu grid",
-                "componentState": {
-                  "id": "47045068619669617-3"
-                },
-                "reorderEnabled": true,
-                "title": "jimu grid",
-                "id": "47045068619669617-3"
-              }
-            ]
-          },
-          {
-            "type": "stack",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "height": 24.925325804137394,
-            "content": [
-              {
-                "id": "47045068619669617-4",
+                "id": "30368439891357824-3",
                 "type": "component",
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "47045068619669617-4"
+                  "id": "30368439891357824-3"
                 },
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "jimu grid"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 26.231845191969406,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "30368439891357824-4"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "30368439891357824-4"
               }
             ]
           }
@@ -75,12 +76,12 @@
   },
   "dijits": [
     {
-      "id": "47045068619669617-1",
+      "id": "30368439891357824-1",
       "type": "text",
       "visible": true,
       "config": {
         "background": {
-          "backgroundColor": "#8fbc8f",
+          "backgroundColor": "#2e8b57",
           "alignment": {
             "horizontal": "center",
             "vertical": "middle"
@@ -101,7 +102,7 @@
       }
     },
     {
-      "id": "47045068619669617-2",
+      "id": "30368439891357824-2",
       "type": "image",
       "visible": false,
       "config": {
@@ -116,7 +117,7 @@
       }
     },
     {
-      "id": "47045068619669617-3",
+      "id": "30368439891357824-3",
       "type": "number",
       "visible": true,
       "config": {
@@ -129,22 +130,21 @@
             "iconInfo": {
               "color": "#ff0000",
               "icon": "icon-stop",
-              "placement": "left"
+              "placement": "replace"
             },
-            "uniqueID": "75968316026732"
+            "uniqueID": "8839640026861539"
           },
           {
             "value": [
               0
             ],
             "operator": "greater",
-            "valueColor": "#000001",
             "iconInfo": {
               "color": "#7fff00",
               "icon": "icon-up",
               "placement": "left"
             },
-            "uniqueID": "6249424861928996"
+            "uniqueID": "35599412567979805"
           }
         ],
         "background": {
@@ -162,8 +162,8 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 45,
-          "textColor": "#59bad8"
+          "fontSize": 50,
+          "textColor": "#000001"
         },
         "dataFormat": {
           "unit": "none",
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "47045068619669617-4",
+      "id": "30368439891357824-4",
       "type": "text",
       "visible": true,
       "config": {
@@ -213,7 +213,7 @@
     }
   ],
   "name": "number",
-  "wid": "47045068619669617",
+  "wid": "30368439891357824",
   "dataSource": {
     "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
     "name": "EmpresasCalderasBiomasa",
