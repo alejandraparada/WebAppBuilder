@@ -20,11 +20,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "7717153447959921-1"
+                  "id": "8885759648431024-1"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "7717153447959921-1"
+                "id": "8885759648431024-1"
               }
             ]
           },
@@ -33,7 +33,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 44.53242526673374,
+            "height": 41.727233123947364,
             "activeItemIndex": 0,
             "content": [
               {
@@ -41,11 +41,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "7717153447959921-3"
+                  "id": "8885759648431024-3"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "7717153447959921-3"
+                "id": "8885759648431024-3"
               }
             ]
           },
@@ -54,7 +54,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 25.246729285077397,
+            "height": 28.051921427863768,
             "activeItemIndex": 0,
             "content": [
               {
@@ -62,11 +62,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "7717153447959921-4"
+                  "id": "8885759648431024-4"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "7717153447959921-4"
+                "id": "8885759648431024-4"
               }
             ]
           }
@@ -76,7 +76,7 @@
   },
   "dijits": [
     {
-      "id": "7717153447959921-1",
+      "id": "8885759648431024-1",
       "type": "text",
       "visible": true,
       "config": {
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "7717153447959921-2",
+      "id": "8885759648431024-2",
       "type": "image",
       "visible": false,
       "config": {
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "7717153447959921-3",
+      "id": "8885759648431024-3",
       "type": "number",
       "visible": true,
       "config": {
@@ -132,7 +132,7 @@
               "icon": "icon-stop",
               "placement": "replace"
             },
-            "uniqueID": "8083916088443635"
+            "uniqueID": "5583068023398812"
           },
           {
             "value": [
@@ -144,7 +144,7 @@
               "icon": "icon-up",
               "placement": "left"
             },
-            "uniqueID": "21480651742302004"
+            "uniqueID": "2929648557922522"
           }
         ],
         "background": {
@@ -162,7 +162,7 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 53,
+          "fontSize": 50,
           "textColor": "#000001"
         },
         "dataFormat": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "7717153447959921-4",
+      "id": "8885759648431024-4",
       "type": "text",
       "visible": true,
       "config": {
@@ -208,16 +208,16 @@
           "fontSize": 12,
           "textColor": "#282828"
         },
-        "text": "Proveedores de biomasa en la ciudad de Valladolid"
+        "text": "Proveedores de biomasa en la ciudad de Valladolid."
       }
     }
   ],
   "name": "number",
-  "wid": "7717153447959921",
+  "wid": "8885759648431024",
   "dataSource": {
     "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
     "name": "ProovedoresBiomasaValladolid_Distrito",
-    "layerId": "eb514034af0d47dba78bfeed929a680c",
+    "layerId": "e3aac9740e874c629b892f0cb8f1dd66",
     "useSelection": true,
     "filterByExtent": false
   }
