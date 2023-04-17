@@ -4,6 +4,15 @@ define([
   "dojo/on",
   "dojo/_base/lang",
 
+  "esri/tasks/QueryTask",
+  "esri/tasks/query",
+
+  "esri/SpatialReference",
+  "esri/graphic",
+  "esri/geometry/Extent",
+
+  "esri/symbols/SimpleLineSymbol",
+
   "esri/map",
   "esri/layers/FeatureLayer",
   "esri/dijit/PopupTemplate",
@@ -15,6 +24,15 @@ define([
     dom,
     on,
     lang,
+
+    QueryTask,
+    Query,
+
+    SpatialReference,
+    Graphic,
+    Extent,
+
+    SimpleLineSymbol,
 
     map,
     FeatureLayer,
@@ -107,7 +125,7 @@ define([
   
           //Extent
           var query = new Query();
-          query.where = "Cod_Distrito = '10'";
+          query.where = "DISTRITO = '10'";
           query.outSpatialReference = new SpatialReference(102100);
           query.returnGeometry = true;
   
@@ -178,7 +196,7 @@ define([
   
           //Extent
           var query = new Query();
-          query.where = "Cod_Distrito = " + distrito;
+          query.where = "DISTRITO = " + distrito;
           query.outSpatialReference = new SpatialReference(102100);
           query.returnGeometry = true;
   
@@ -211,7 +229,7 @@ define([
     
             //Extent
             var query = new Query();
-            query.where = "Cod_Distrito = " + distrito;
+            query.where = "DISTRITO = " + distrito;
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
@@ -241,7 +259,7 @@ define([
     
             //Extent
             var query = new Query();
-            query.where = "Cod_Distrito = " + distrito;
+            query.where = "DISTRITO = " + distrito;
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
