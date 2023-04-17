@@ -94,6 +94,7 @@ define([
             if (results.features.length > 0){
               var geometria = results.features[0].geometry
               this.map.graphics.clear();
+              this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
               this.map.setExtent(geometria.getExtent(),true);
             }
           }));
@@ -170,9 +171,13 @@ define([
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
 
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
             //Extent
             var query = new Query();
-            query.where = "Cod_Distrito = " + distrito;
+            query.where = "Cod_Distrito = '10'";
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
@@ -192,9 +197,13 @@ define([
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
 
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
             //Extent
             var query = new Query();
-            query.where = "Cod_Distrito = " + distrito;
+            query.where = "Cod_Distrito = '10'";
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
