@@ -94,7 +94,6 @@ define([
             if (results.features.length > 0){
               var geometria = results.features[0].geometry
               this.map.graphics.clear();
-              this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
               this.map.setExtent(geometria.getExtent(),true);
             }
           }));
