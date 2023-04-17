@@ -125,7 +125,7 @@ define([
   
           //Extent
           var query = new Query();
-          query.where = "DISTRITO = '10'";
+          query.where = "Cod_Distrito = '10'";
           query.outSpatialReference = new SpatialReference(102100);
           query.returnGeometry = true;
   
@@ -196,7 +196,7 @@ define([
   
           //Extent
           var query = new Query();
-          query.where = "DISTRITO = " + distrito;
+          query.where = "Cod_Distrito = " + distrito;
           query.outSpatialReference = new SpatialReference(102100);
           query.returnGeometry = true;
   
@@ -229,7 +229,7 @@ define([
     
             //Extent
             var query = new Query();
-            query.where = "DISTRITO = " + distrito;
+            query.where = "Cod_Distrito = " + distrito;
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
@@ -259,7 +259,7 @@ define([
     
             //Extent
             var query = new Query();
-            query.where = "DISTRITO = " + distrito;
+            query.where = "Cod_Distrito = " + distrito;
             query.outSpatialReference = new SpatialReference(102100);
             query.returnGeometry = true;
     
