@@ -4,6 +4,15 @@ define([
   "dojo/on",
   "dojo/_base/lang",
 
+  "esri/tasks/QueryTask",
+  "esri/tasks/query",
+
+  "esri/SpatialReference",
+  "esri/graphic",
+  "esri/geometry/Extent",
+
+  "esri/symbols/SimpleLineSymbol",
+
   "esri/map",
   "esri/layers/FeatureLayer",
   "esri/dijit/PopupTemplate",
@@ -15,6 +24,15 @@ define([
     dom,
     on,
     lang,
+
+    QueryTask,
+    Query,
+
+    SpatialReference,
+    Graphic,
+    Extent,
+
+    SimpleLineSymbol,
 
     map,
     FeatureLayer,
@@ -107,6 +125,27 @@ define([
 
 
         if (distrito== 0){
+
+          var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+          console.log("dist", dist)
+          var queryTask =new QueryTask(dist.url);
+  
+          //Extent
+          var query = new Query();
+          query.where = "Cod_Distrito = '10'";
+          query.outSpatialReference = new SpatialReference(102100);
+          query.returnGeometry = true;
+  
+          queryTask.execute(query, lang.hitch(this, function(results){
+            console.log(results)
+  
+            if (results.features.length > 0){
+              var geometria = results.features[0].geometry
+              this.map.graphics.clear();
+              this.map.setExtent(geometria.getExtent(),true);
+            }
+          }));
+
           if(a == true){
             expression = expression + aE
             
@@ -234,6 +273,28 @@ define([
           console.log("fin",expression);
           this.currentLayer.setDefinitionExpression(expression);
           this.map.addLayer(this.currentLayer);
+
+          var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+          console.log("dist", dist)
+          var queryTask =new QueryTask(dist.url);
+  
+          //Extent
+          var query = new Query();
+          query.where = "Cod_Distrito = " + distrito;
+          query.outSpatialReference = new SpatialReference(102100);
+          query.returnGeometry = true;
+  
+          queryTask.execute(query, lang.hitch(this, function(results){
+            console.log(results)
+  
+            if (results.features.length > 0){
+              var geometria = results.features[0].geometry
+              this.map.graphics.clear();
+              this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+              this.map.setExtent(geometria.getExtent(),true);
+            }
+          }));
+
         }else if(b == true){
             expression = "("+ expression + bE + ")" + and + codDistrito + distrito; 
             if(c == true){
@@ -254,6 +315,28 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(c == true){
             expression = "("+ expression + cE + ")" + and + codDistrito + distrito; 
             if(d == true){
@@ -271,6 +354,28 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(d == true){
             expression = "("+ expression + dE + ")" + and + codDistrito + distrito; 
             if(e == true){
@@ -285,6 +390,28 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(e == true){
             expression = "("+ expression + eE + ")" + and + codDistrito + distrito; 
             if(f == true){
@@ -296,6 +423,28 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(f == true){
             expression = "("+ expression + fE + ")" + and + codDistrito + distrito; 
             if(g == true){
@@ -304,11 +453,55 @@ define([
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else if(g == true){
             expression = "("+ expression + gE + ")" + and + codDistrito + distrito; 
             console.log("fin",expression);
             this.currentLayer.setDefinitionExpression(expression);
             this.map.addLayer(this.currentLayer)
+
+            var dist = this.map.getLayer(this.map.itemInfo.itemData.operationalLayers[0].id)
+            console.log("dist", dist)
+            var queryTask =new QueryTask(dist.url);
+    
+            //Extent
+            var query = new Query();
+            query.where = "Cod_Distrito = " + distrito;
+            query.outSpatialReference = new SpatialReference(102100);
+            query.returnGeometry = true;
+    
+            queryTask.execute(query, lang.hitch(this, function(results){
+              console.log(results)
+    
+              if (results.features.length > 0){
+                var geometria = results.features[0].geometry
+                this.map.graphics.clear();
+                this.map.graphics.add(new Graphic(geometria, new SimpleLineSymbol()));
+                this.map.setExtent(geometria.getExtent(),true);
+              }
+            }));
+
           }else{
             alert("Elige al menos un producto")
           }
