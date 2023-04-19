@@ -12,7 +12,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 31.447444564986633,
+            "height": 30.22084544818889,
             "activeItemIndex": 0,
             "content": [
               {
@@ -20,11 +20,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "30368439891357824-1"
+                  "id": "48670343137248917-1"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "30368439891357824-1"
+                "id": "48670343137248917-1"
               }
             ]
           },
@@ -33,19 +33,19 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 42.32071024304397,
+            "height": 42.42853115964395,
             "activeItemIndex": 0,
             "content": [
               {
-                "id": "30368439891357824-3",
                 "type": "component",
+                "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "30368439891357824-3"
+                  "id": "48670343137248917-3"
                 },
-                "isClosable": true,
                 "reorderEnabled": true,
-                "title": "jimu grid"
+                "title": "jimu grid",
+                "id": "48670343137248917-3"
               }
             ]
           },
@@ -54,7 +54,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 26.231845191969406,
+            "height": 27.35062339216718,
             "activeItemIndex": 0,
             "content": [
               {
@@ -62,11 +62,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "30368439891357824-4"
+                  "id": "48670343137248917-4"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "30368439891357824-4"
+                "id": "48670343137248917-4"
               }
             ]
           }
@@ -76,7 +76,7 @@
   },
   "dijits": [
     {
-      "id": "30368439891357824-1",
+      "id": "48670343137248917-1",
       "type": "text",
       "visible": true,
       "config": {
@@ -95,14 +95,14 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 18,
+          "fontSize": 17,
           "textColor": "#ffffff"
         },
         "text": "EMPRESAS DE INSTALACIÓN"
       }
     },
     {
-      "id": "30368439891357824-2",
+      "id": "48670343137248917-2",
       "type": "image",
       "visible": false,
       "config": {
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "30368439891357824-3",
+      "id": "48670343137248917-3",
       "type": "number",
       "visible": true,
       "config": {
@@ -132,7 +132,7 @@
               "icon": "icon-stop",
               "placement": "replace"
             },
-            "uniqueID": "8839640026861539"
+            "uniqueID": "5349070793057962"
           },
           {
             "value": [
@@ -144,7 +144,7 @@
               "icon": "icon-up",
               "placement": "left"
             },
-            "uniqueID": "35599412567979805"
+            "uniqueID": "3633947062936822"
           }
         ],
         "background": {
@@ -162,7 +162,7 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 50,
+          "fontSize": 49,
           "textColor": "#000001"
         },
         "dataFormat": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "30368439891357824-4",
+      "id": "48670343137248917-4",
       "type": "text",
       "visible": true,
       "config": {
@@ -213,7 +213,7 @@
     }
   ],
   "name": "number",
-  "wid": "30368439891357824",
+  "wid": "48670343137248917",
   "dataSource": {
     "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
     "name": "EmpresasCalderasBiomasa",
