@@ -20,11 +20,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "48670343137248917-1"
+                  "id": "3553705540889889-1"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "48670343137248917-1"
+                "id": "3553705540889889-1"
               }
             ]
           },
@@ -33,7 +33,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 42.42853115964395,
+            "height": 41.727233123947364,
             "activeItemIndex": 0,
             "content": [
               {
@@ -41,11 +41,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "48670343137248917-3"
+                  "id": "3553705540889889-3"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "48670343137248917-3"
+                "id": "3553705540889889-3"
               }
             ]
           },
@@ -54,7 +54,7 @@
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "height": 27.35062339216718,
+            "height": 28.051921427863768,
             "activeItemIndex": 0,
             "content": [
               {
@@ -62,11 +62,11 @@
                 "isClosable": true,
                 "componentName": "jimu grid",
                 "componentState": {
-                  "id": "48670343137248917-4"
+                  "id": "3553705540889889-4"
                 },
                 "reorderEnabled": true,
                 "title": "jimu grid",
-                "id": "48670343137248917-4"
+                "id": "3553705540889889-4"
               }
             ]
           }
@@ -76,7 +76,7 @@
   },
   "dijits": [
     {
-      "id": "48670343137248917-1",
+      "id": "3553705540889889-1",
       "type": "text",
       "visible": true,
       "config": {
@@ -95,14 +95,14 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 17,
+          "fontSize": 18,
           "textColor": "#ffffff"
         },
         "text": "EMPRESAS DE INSTALACIÓN"
       }
     },
     {
-      "id": "48670343137248917-2",
+      "id": "3553705540889889-2",
       "type": "image",
       "visible": false,
       "config": {
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": "48670343137248917-3",
+      "id": "3553705540889889-3",
       "type": "number",
       "visible": true,
       "config": {
@@ -132,7 +132,7 @@
               "icon": "icon-stop",
               "placement": "replace"
             },
-            "uniqueID": "5349070793057962"
+            "uniqueID": "9675988561776447"
           },
           {
             "value": [
@@ -144,7 +144,7 @@
               "icon": "icon-up",
               "placement": "left"
             },
-            "uniqueID": "3633947062936822"
+            "uniqueID": "2976037092499766"
           }
         ],
         "background": {
@@ -162,7 +162,7 @@
             "italic": false,
             "underline": false
           },
-          "fontSize": 49,
+          "fontSize": 50,
           "textColor": "#000001"
         },
         "dataFormat": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "48670343137248917-4",
+      "id": "3553705540889889-4",
       "type": "text",
       "visible": true,
       "config": {
@@ -213,7 +213,7 @@
     }
   ],
   "name": "number",
-  "wid": "48670343137248917",
+  "wid": "3553705540889889",
   "dataSource": {
     "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
     "name": "EmpresasCalderasBiomasa",
